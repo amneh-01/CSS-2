@@ -1,0 +1,31 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.split-screen {
+  display: flex;
+  width: 100vw;  /* عرض الشاشة بالكامل */
+  height: 100vh; /* ارتفاع الشاشة بالكامل */
+}
+
+.section {
+  flex: 1; /* يعطي كل نصف مساحة متساوية (50%) */
+  display: flex;
+  justify-content: center; /* محاذاة النص في المنتصف أفقيًا */
+  align-items: center;     /* محاذاة النص في المنتصف عموديًا */
+  font-size: 24px;
+  color: white;
+}
+
+/* لون القسم الأيسر */
+.left {
+  background-color: #3498db; /* أزرق */
+}
+
+/* لون القسم الأيمن */
+.right {
+  background-color: #2ecc71; /* أخضر */
+}
