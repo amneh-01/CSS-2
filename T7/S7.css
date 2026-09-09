@@ -1,0 +1,17 @@
+body {
+      padding: 20px;
+      font-family: Arial, sans-serif;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    
+    .img {
+      position: fixed;
+      top: 40px;
+      right: 20px;
+      width: 150px;
+      height: auto;
+    }

@@ -1,0 +1,57 @@
+
+.container {
+  display: flex;
+  border: 2px dotted black;
+  width: 470px;
+  justify-content: space-between;
+}
+
+
+
+.one ,.three ,.four {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  border: 1px dotted black;
+  color: black;
+  padding: 5px;
+}
+
+.tow {
+  background-color: green;
+  position: static;
+  width: 100px;
+  height: 100px;
+  border: 1px dotted black;
+  color: black;
+  padding: 5px;
+}
+
+.tow2 {
+  background-color: green;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: 1px dotted black;
+  color: black;
+  padding: 5px;
+  top: 20px;
+  left: 20px;
+}
+
+.tow3 {
+  background-color: green;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border: 1px dotted black;
+  color: black;
+  padding: 5px;
+  top: 20px;
+  right: 15px;
+}
+
+.a{
+  
+  position: relative;
+}
