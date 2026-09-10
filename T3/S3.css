@@ -16,11 +16,7 @@
 
  .box{
   display: grid;
-<<<<<<< HEAD
   place-items: start center; 
-=======
-  place-items: start center; /* محاذاة للأعلى (start) وفي المنتصف أفقيًا (center) */
->>>>>>> b292638f9fdbf36f78f72378b8e879d18bd0a8e0
   padding-top: 20px;
   font-size: 80px;
   font-weight: bold;
