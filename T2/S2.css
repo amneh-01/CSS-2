@@ -7,6 +7,7 @@
 
 .split-screen {
   display: flex;
+<<<<<<< HEAD
   width: 100vw; 
   height: 100vh; 
 }
@@ -16,10 +17,22 @@
   display: flex;
   justify-content: center; 
   align-items: center;     
+=======
+  width: 100vw;  /* عرض الشاشة بالكامل */
+  height: 100vh; /* ارتفاع الشاشة بالكامل */
+}
+
+.section {
+  flex: 1; /* يعطي كل نصف مساحة متساوية (50%) */
+  display: flex;
+  justify-content: center; /* محاذاة النص في المنتصف أفقيًا */
+  align-items: center;     /* محاذاة النص في المنتصف عموديًا */
+>>>>>>> b292638f9fdbf36f78f72378b8e879d18bd0a8e0
   font-size: 24px;
   color: white;
 }
 
+<<<<<<< HEAD
 
 .left {
   background-color: #3498db; 
@@ -28,4 +41,14 @@
 
 .right {
   background-color: #2ecc71; 
+=======
+/* لون القسم الأيسر */
+.left {
+  background-color: #3498db; /* أزرق */
+}
+
+/* لون القسم الأيمن */
+.right {
+  background-color: #2ecc71; /* أخضر */
+>>>>>>> b292638f9fdbf36f78f72378b8e879d18bd0a8e0
 }

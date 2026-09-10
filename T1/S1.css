@@ -2,8 +2,12 @@
 .container {
   display: flex;
   border: 2px dotted black;
+<<<<<<< HEAD
   width: 470px;
   justify-content: space-between;
+=======
+  width: fit-content;
+>>>>>>> b292638f9fdbf36f78f72378b8e879d18bd0a8e0
 }
 
 
@@ -19,12 +23,17 @@
 
 .tow {
   background-color: green;
+<<<<<<< HEAD
   position: static;
+=======
+  position: static; /* الوضع الطبيعي */
+>>>>>>> b292638f9fdbf36f78f72378b8e879d18bd0a8e0
   width: 100px;
   height: 100px;
   border: 1px dotted black;
   color: black;
   padding: 5px;
+<<<<<<< HEAD
 }
 
 .tow2 {
@@ -54,4 +63,6 @@
 .a{
   
   position: relative;
+=======
+>>>>>>> b292638f9fdbf36f78f72378b8e879d18bd0a8e0
 }
